@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package org.ucu.io.ut4grupal;
+package com.mycompany.ut4_hernandez_bascialla_pijuan;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -22,7 +22,7 @@ public class Archivos {
         try {
             // Apertura del fichero y creacion de BufferedReader para poder
             // hacer una lectura comoda (disponer del metodo readLine()).
-            archivo = new File("C:\\Users\\User\\Desktop\\UNIDAD TEMÁTICA 4 - ÁRBOLES BINARIOS\\claves.txt");
+            archivo = new File("/Users/Ale_macbook/UT4_TGRUPAL/claves.txt");
             fr = new FileReader(archivo);
             br = new BufferedReader(fr);
 
