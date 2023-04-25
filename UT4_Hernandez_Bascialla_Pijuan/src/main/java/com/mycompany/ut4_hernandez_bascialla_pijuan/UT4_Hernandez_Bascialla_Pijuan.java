@@ -12,6 +12,7 @@ package com.mycompany.ut4_hernandez_bascialla_pijuan;
 public class UT4_Hernandez_Bascialla_Pijuan {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Archivos leerArchivo = new Archivos();
+        leerArchivo.leerArchivos();
     }
 }

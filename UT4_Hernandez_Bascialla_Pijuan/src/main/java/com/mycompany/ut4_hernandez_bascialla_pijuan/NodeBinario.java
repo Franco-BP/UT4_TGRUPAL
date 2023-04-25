@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package org.ucu.io.ut4grupal;
+package com.mycompany.ut4_hernandez_bascialla_pijuan;
 
 import java.util.Optional;
 
