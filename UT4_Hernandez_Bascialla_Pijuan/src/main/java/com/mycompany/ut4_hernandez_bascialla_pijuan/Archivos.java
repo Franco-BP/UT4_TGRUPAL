@@ -14,6 +14,8 @@ import java.util.ArrayList;
  * @author User
  */
 public class Archivos {
+    
+    final String claves_txt = "/Users/Ale_macbook/UT4_TGRUPAL/claves.txt";
 
     public void leerArchivos() {
         File archivo = null;
@@ -23,7 +25,7 @@ public class Archivos {
         try {
             // Apertura del fichero y creacion de BufferedReader para poder
             // hacer una lectura comoda (disponer del metodo readLine()).
-            archivo = new File("/Users/Ale_macbook/UT4_TGRUPAL/claves.txt");
+            archivo = new File(claves_txt);
             fr = new FileReader(archivo);
             br = new BufferedReader(fr);
 
@@ -57,7 +59,7 @@ public class Archivos {
         try {
             // Apertura del fichero y creacion de BufferedReader para poder
             // hacer una lectura comoda (disponer del metodo readLine()).
-            archivo = new File("/Users/Ale_macbook/UT4_TGRUPAL/claves.txt");
+            archivo = new File(claves_txt);
             fr = new FileReader(archivo);
             br = new BufferedReader(fr);
 
