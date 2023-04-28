@@ -108,14 +108,6 @@ public class NodeBinario {
         System.out.println(value);
     }
     
-    
-    
-      
-    
-    
-    
-    
-
     @Override
     public String toString() {
         return "Node [value=" + value + ", left=" + left + ", right=" + right + "]";

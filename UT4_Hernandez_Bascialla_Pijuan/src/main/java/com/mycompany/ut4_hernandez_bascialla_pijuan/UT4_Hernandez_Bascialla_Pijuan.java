@@ -23,11 +23,14 @@ public class UT4_Hernandez_Bascialla_Pijuan {
             arbolBB1.add(numbersList.get(i));
         }
         
-        //Prueba de que el arbol esta creado bien.
-        lecturaNumeros.leerArchivos();
-        System.out.println("------\nLista guardada: " + numbersList);
-        System.out.println("------\nIn Order del arbol:");
-        arbolBB1.printInOrder();
+        NodeAltura nodeAltura = new NodeAltura();
+        NodeTamanio nodeTamanio = new NodeTamanio();
+        NodeHojas nodeHojas = new NodeHojas();
+        NodeInternos nodeInternos = new NodeInternos();
         
+        System.out.println("Altura del arbol: " + nodeAltura.getAltura(arbolBB1) + " (expected: 5)");
+        System.out.println("Tamaño del arbol: " + nodeTamanio.getTamanio(arbolBB1) + " (expected: 12)");
+        System.out.println("Hojas del arbol: " + nodeHojas.getCantidadHojas(arbolBB1) + " (expected: 5)");
+        System.out.println("Nodos Internos del arbol: " + nodeInternos.getCantidadInternos(arbolBB1) + " (expected: 6)");
     }
 }
